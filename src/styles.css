@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .page{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(207, 207, 207);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button{
+    background: #8f7a66;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    margin: 10px 10px 0 10px;
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    transition: 0.5s;
+  }
+
+  .button:hover{
+    transform: scale(1.1);
+  }
+  
+  .game-board {
+    background-color: #ad9d8f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 4px;
+    margin: auto;
+    width: 910px;
+    height: 900px;
+    border-radius: 8px;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 8px;
+    padding: 4px;
+    width: 900px;
+    height: 100%;
+  }
+  
+  .cell {
+    padding: 10px;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .cell-2 {
+    background-color: #f3f2f2;
+  }
+  
+  .cell-4 {
+    background-color: #E9DBBA;
+  }
+  
+  .cell-8 {
+    background-color: #E9A067;
+  }
+  
+  .cell-16 {
+    background-color: #F08151;
+  }
+  
+  .cell-32 {
+    background-color: #F2654F;
+  }
+  
+  .cell-64 {
+    background-color: #F1462C;
+  }
+  
+  .cell-128 {
+    background-color: #E7C65E;
+  }
+  
+  .cell-256 {
+    background-color: #E8C350;
+  }
+  
+  .cell-512 {
+    background-color: #E8BE40;
+  }
+  
+  .cell-1024 {
+    background-color: #E8BB31;
+  }
+  
+  .cell-2048 {
+    background-color: #E7B723;
+  }
+  
